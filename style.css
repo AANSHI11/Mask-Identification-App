@@ -1,0 +1,92 @@
+body { 
+    background-size: cover;
+ } 
+#camera { 
+    border: 2px dashed black;
+     width: 350px; 
+     height: 300px;
+    
+    } 
+.name_of_objects, #result_object_name , #result_object_accuracy { 
+    color: red; 
+}
+.heading {
+    font-size: 30px;
+    font-family: serif;
+    color: black;
+    background-color: cornsilk;
+    width: 500%;
+    border-radius: 20px;
+}
+#note {
+    font-size: 20px;
+    background-color: hotpink;
+    width: 100%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 20px;
+    font-family: cursive;
+}
+#right {
+    font-size: 20px;
+    background-color: hotpink;
+    width: 100%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 20px;
+    font-family: cursive;
+}
+#result_object_name {
+    color: black;
+    font-family:serif;
+}
+#result_object_accuracy {
+    color: black;
+    font-family:serif;
+}
+#object {
+    color: black;
+    font-family: serif;
+    background-color: gold;
+    width: 300px;
+    border-radius: 20px;
+}
+#accuracy {
+    color: black;
+    font-family: serif;
+    background-color: gold;
+    width: 300px;
+    border-radius: 20px;
+}
+#cam {
+    font-size: 20px;
+    color: white;
+}
+#status {
+    color: black;
+    font-size: 20px;
+    font-family: cursive;
+    background-color: cornsilk;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100px;
+}
+ .emoji{
+  font-size:30px; 
+ }
+ .box {
+    font-size: 20px;
+    background-color: aqua;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+ }

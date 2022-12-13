@@ -1,0 +1,58 @@
+ <html>
+
+ <head>
+   <title>Mask Identifier app</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+   <script src="//unpkg.com/ml5@0.4.3/dist/ml5.min.js" target="_blank"></script>
+
+   <link rel="stylesheet" href="style.css">
+
+ </head>
+
+ <body background="https://api.time.com/wp-content/uploads/2020/08/coronavirus-face-masks.jpg">
+   <div class="container">
+
+     <center>
+       <label class="heading">Mask Identifier Web App</label>
+       <hr>
+       <lable id="right" style="font-size: 22px;">Model is trained on Mask Identification</lable>
+       <br><br>
+       <lable id="note">Proper Mask | Improper Mask | No Mask</lable>
+       <hr id="hr">
+
+       <label id="cam">Webcam View - </label>
+       <div id="camera"></div>
+       <br><br>
+       <div id="result"></div>
+       <div id="result"></div>
+       <br>
+
+       <button onclick="take_snapshot();" class="btn btn-danger">Capture Your Image</button>
+       <br><br>
+       <button onclick="check();" class="btn btn-success">Identify Image</button>
+       <br><br>
+
+       <p id="object" style="font-size: 22px;">Object : <span id="result_object_name"></span></p>
+       <p id="accuracy" style="font-size: 22px;">Accuracy : <span id="result_object_accurancy"></span></p>
+       <br>
+
+       <div class="col-md-4 col-sm-12 col-xs-12">
+        <label class="box">Prediction 1 - </label>
+         <p class="status_update" id="status"></p>
+         <p class="emoji" id="Permission"></p>
+       </div>
+       
+     </center>
+   </div>
+   <script src="main.js"></script>
+
+
+ </body>
+
+ </html>
